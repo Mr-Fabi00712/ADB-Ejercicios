@@ -9,3 +9,5 @@ SHOW VARIABLES LIKE '%buffer%';
 ```
 
 - Salida:
+
+![alt text](image-6.png)

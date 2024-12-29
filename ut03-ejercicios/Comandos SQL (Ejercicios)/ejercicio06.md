@@ -9,3 +9,5 @@ SHOW VARIABLES LIKE 'bind_address';
 ```
 
 - Salida:
+
+![alt text](image-5.png)

@@ -9,3 +9,5 @@ SHOW VARIABLES;
 ```
 
 - Salida:
+
+![alt text](image.png)

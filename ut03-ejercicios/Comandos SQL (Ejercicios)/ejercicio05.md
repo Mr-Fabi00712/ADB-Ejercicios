@@ -9,3 +9,5 @@ SHOW VARIABLES LIKE 'max_allowed_packet';
 ```
 
 - Salida:
+
+![alt text](image-4.png)

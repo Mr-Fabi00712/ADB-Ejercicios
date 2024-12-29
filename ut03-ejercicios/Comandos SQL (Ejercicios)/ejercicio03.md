@@ -9,3 +9,5 @@ SHOW VARIABLES LIKE 'innodb%';
 ```
 
 - Salida:
+
+![alt text](image-2.png)

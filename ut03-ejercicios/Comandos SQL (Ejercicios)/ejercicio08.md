@@ -9,3 +9,5 @@ SHOW VARIABLES LIKE '%dir%';
 ```
 
 - Salida:
+
+![alt text](image-7.png)

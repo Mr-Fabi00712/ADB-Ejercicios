@@ -9,3 +9,5 @@ SHOW VARIABLES LIKE '%size%';
 ```
 
 - Salida:
+
+![alt text](image-1.png)
