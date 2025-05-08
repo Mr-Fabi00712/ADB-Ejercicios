@@ -40,7 +40,7 @@ SELECT nombre, TRUNCATE(precio, 0) FROM producto;
 
 -- Lista el identificador de los fabricantes que tienen productos en la tabla producto.
 
-SELECT id FROM producto;
+SELECT id_fabricante FROM producto;
 
 -- Lista el identificador de los fabricantes que tienen productos en la tabla producto, eliminando los identificadores que aparecen repetidos.
 
@@ -80,15 +80,15 @@ SELECT nombre FROM producto where id_fabricante = 2;
 
 -- Lista el nombre de los productos que tienen un precio menor o igual a 120€.
 
-SELECT nombre, precio FROM producto where precio <= 120; 
+SELECT nombre FROM producto where precio <= 120; 
 
 -- Lista el nombre de los productos que tienen un precio mayor o igual a 400€.
 
-SELECT nombre, precio FROM producto where precio >= 400; 
+SELECT nombre FROM producto where precio >= 400; 
 
 -- Lista el nombre de los productos que no tienen un precio mayor o igual a 400€.
 
-SELECT nombre, precio FROM producto where precio < 400; 
+SELECT nombre FROM producto WHERE NOT precio >= 400; 
 
 -- Lista todos los productos que tengan un precio entre 80€ y 300€. Sin utilizar el operador BETWEEN.
 
@@ -124,7 +124,7 @@ SELECT nombre FROM fabricante WHERE nombre LIKE '%e';
 
 -- Lista los nombres de los fabricantes cuyo nombre contenga el carácter w.
 
-SELECT nombre FROM fabricante WHERE nombre LIKE '%e';
+SELECT nombre FROM fabricante WHERE nombre LIKE '%w%';
 
 -- Lista los nombres de los fabricantes cuyo nombre sea de 4 caracteres.
 
